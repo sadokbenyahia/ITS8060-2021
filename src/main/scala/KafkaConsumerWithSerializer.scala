@@ -79,7 +79,7 @@
             else
             if  (t._3.equals("en"))
             {val record=new ProducerRecord[String,String]("EnglishTweets","key",s"(${t._1},${t._3})")
-                  println(s" $t._3.******(${t._1},${t._2})")
+                  println(s" $t._3.**(${t._1},${t._2})")
               producer.send(record)}
           }
 
